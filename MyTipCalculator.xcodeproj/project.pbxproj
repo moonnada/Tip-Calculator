@@ -15,6 +15,7 @@
 		35DCB60A25C125290010195B /* MyTipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCB60925C125290010195B /* MyTipCalculatorTests.swift */; };
 		35DCB61525C125290010195B /* MyTipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCB61425C125290010195B /* MyTipCalculatorUITests.swift */; };
 		35DCB62925C146950010195B /* TipCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCB62825C146950010195B /* TipCalculatorViewController.swift */; };
+		35DCB62E25C150C40010195B /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCB62D25C150C40010195B /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		35DCB61425C125290010195B /* MyTipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTipCalculatorUITests.swift; sourceTree = "<group>"; };
 		35DCB61625C125290010195B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35DCB62825C146950010195B /* TipCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorViewController.swift; sourceTree = "<group>"; };
+		35DCB62D25C150C40010195B /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				35DCB5FD25C125280010195B /* LaunchScreen.storyboard */,
 				35DCB60025C125280010195B /* Info.plist */,
 				35DCB62825C146950010195B /* TipCalculatorViewController.swift */,
+				35DCB62D25C150C40010195B /* TipCalculator.swift */,
 			);
 			path = MyTipCalculator;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DCB5F325C125260010195B /* AppDelegate.swift in Sources */,
+				35DCB62E25C150C40010195B /* TipCalculator.swift in Sources */,
 				35DCB62925C146950010195B /* TipCalculatorViewController.swift in Sources */,
 				35DCB5F525C125260010195B /* SceneDelegate.swift in Sources */,
 			);
