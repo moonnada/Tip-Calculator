@@ -16,13 +16,13 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
+1. Users can choose their tip percentage easily by using a slider.
+2. There is a split slider, so users can know how much they pay their tip.
 
 ## Video Walkthrough
 
@@ -37,6 +37,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+This is my first project in Swift language, so everything was new to me.
+The design part was not hard but making connections with code and application was challenging.
+Overall, most part was managable.
+
 
 ## License
 
