@@ -57,6 +57,7 @@ class TipCalculatorViewController:
     @IBAction func numOfPeopleSliderValueChanged(sender: Any){
         numOfPeopleLabel.text = String(format: "Split: %2d", Int(numOfPeopleSlider.value))
         calculateBill()
+        
     }
     
    
