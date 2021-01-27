@@ -22,7 +22,7 @@ class TipCalculatorViewController:
     @IBOutlet weak var numOfPeopleLabel:
         UILabel!
     
-    @IBOutlet weak var eachPersonAmount:
+    @IBOutlet weak var eachPersonAmountLabel:
         UILabel!
     @IBOutlet weak var totalResultLabel:
         UILabel!
@@ -34,26 +34,35 @@ class TipCalculatorViewController:
         amountBeforeTaxTextField.becomeFirstResponder()
     }
     
-    func calculateTip(){
-        
+    func calculateBill(){
+        tipCalculator.tipPercentage = Double(tipPercentageSlider.value)/100.0
+        tipCalculator.amountBeforeTax = (amountBeforeTaxTextField.text! as NSString).doubleValue
+        tipCalculator.calculatorTip()
+        updateUI()
     }
     
     func updateUI(){
-        
+        totalResultLabel.text = String(format: "$%0.2f", tipCalculator.totalAmount)
+        let numberOfPeople: Int = Int(numOfPeopleSlider.value)
+        eachPersonAmountLabel.text = String(format: "$%0.2f",tipCalculator.totalAmount / Double(numberOfPeople))
     }
     
     
     
     @IBAction func tipSliderValueChanged(sender: Any){
         tipPercentageLabel.text = String(format: "Tip: %02d%%", Int(tipPercentageSlider.value))
-        calculateTip()
+        calculateBill()
     }
     
     @IBAction func numOfPeopleSliderValueChanged(sender: Any){
         numOfPeopleLabel.text = String(format: "Split: %2d", Int(numOfPeopleSlider.value))
+        calculateBill()
     }
     
+   
+    
+    
     @IBAction func amountBeforeTaxTextfieldChanged(sender: Any){
-        calculateTip()
+        calculateBill()
     }
 }
