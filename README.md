@@ -20,21 +20,16 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
 1. Users can choose their tip percentage easily by using a slider.
 2. There is a split slider, so users can know how much they pay their tip.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src='http://g.recordit.co/S7qz7510qk.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/53587841/105974679-ffc2da00-6042-11eb-8750-4651e9078f0d.gif)
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-
 
 
 ## Notes
