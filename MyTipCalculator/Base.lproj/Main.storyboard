@@ -149,6 +149,11 @@
                     </view>
                     <connections>
                         <outlet property="amountBeforeTaxTextField" destination="P36-i6-vt9" id="7iw-QQ-Wov"/>
+                        <outlet property="eachPersonAmount" destination="66H-HJ-ovM" id="KN1-a3-GRZ"/>
+                        <outlet property="numOfPeopleLabel" destination="y6k-ea-e4w" id="Q2C-Lz-U95"/>
+                        <outlet property="numOfPeopleSlider" destination="b2z-aY-gFZ" id="SGr-jN-T2i"/>
+                        <outlet property="tipPercentageLabel" destination="aP3-nk-AAu" id="H6Y-4o-hgN"/>
+                        <outlet property="tipPercentageSlider" destination="jdK-b4-4zL" id="YV0-kh-38u"/>
                         <outlet property="totalResultLabel" destination="bwY-3d-c4f" id="wbT-xp-Li7"/>
                     </connections>
                 </viewController>
